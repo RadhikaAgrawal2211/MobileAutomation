@@ -17,6 +17,8 @@ public class WebAppTest {
 		 cap.setCapability("platformName", "Android");
 		 cap.setCapability("browserName", "chrome");
 		 cap.setCapability("chromedriverExecutable", "C:\\Radhika\\chromedriver_win32\\chromedriver.exe");
+		 //to set the udid of specific device otherwise it will take the first one
+		//cap.setCapability("udid", "emulator-5556");
 		 
 		 AndroidDriver<WebElement> driver= new AndroidDriver<WebElement>(new URL("http://localhost:4723/wd/hub"), cap);
 		 
