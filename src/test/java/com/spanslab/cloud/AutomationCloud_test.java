@@ -33,7 +33,7 @@ public class AutomationCloud_test {
 	      caps.setCapability("name", "first_test");
 	      
 	      
-	      // Initialise the remote Webdriver using BrowserStack remote URL
+	      // Initialise the remote Webdriver using BrowserStack remote URL.
 	      // and desired capabilities defined above
 	        IOSDriver<IOSElement> driver = new IOSDriver<IOSElement>(
 	            new URL("http://hub-cloud.browserstack.com/wd/hub"), caps);
